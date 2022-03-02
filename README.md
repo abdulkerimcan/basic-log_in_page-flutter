@@ -1,16 +1,33 @@
-# log_in_app
+# Basic Log in Page in Flutter
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## About The Project
 
-A few resources to get you started if this is your first Flutter project:
+I have designed a simple log in page in this project. In this project, I've used features of TextField and ElevatedButton.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+![app2_a](https://user-images.githubusercontent.com/79968953/156416090-8e92dfce-cc91-48f2-87c3-3d8ca67994db.PNG)
+
+GestureDetector is a widget that detects gestures.
+
+Attempts to recognize gestures that correspond to its non-null callbacks.
+
+```dart
+GestureDetector(
+                  onTap: () {
+                    print("help page");
+                  },
+                  child: Text(
+                    "Any Help?",
+                    style: TextStyle(
+                      color: Colors.pink,
+                      fontWeight: FontWeight.bold,
+                      fontSize: screenWidth / 27,
+                    ),
+                  ),
+                ),
+```
+
